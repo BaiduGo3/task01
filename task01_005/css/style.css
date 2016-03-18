@@ -86,11 +86,13 @@ section h3,h4{
 	color:grey;
 }
 section figure{
+	float: left;
+	display: inline-block;
 	border:1px solid lightgrey;
 	width: 220px;
 	text-align: center;
 	padding:10px 10px;
-	margin: 20px 0;
+	margin: 20px;
 }
 section figure img{
 	margin:10px 0;
