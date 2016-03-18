@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	position: absolute;
+	width:400px;
+	height: 200px;
+	top:50%;
+	left:50%;
+	background: #ccc;
+	margin-top: -100px;
+	margin-left: -200px;
+	overflow: hidden;
+}
+.left-top,.right-bottom{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: #fc0; 
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+}
+.left-top{
+	top: -50px;
+	left: -50px;
+}
+.right-bottom{
+	right: -50px;
+	bottom: -50px;
+}

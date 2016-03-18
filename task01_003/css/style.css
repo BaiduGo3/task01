@@ -1,0 +1,78 @@
+*{
+	font-family: "微软雅黑";
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wrap{
+	height:500px;
+	background: #eee;
+	border: 1px solid #999;
+	width: 80%; 
+	margin: 60px auto;
+	overflow: hidden;
+	padding:20px;
+}
+.left{
+	position: absolute;
+	width:160px !important;
+	float: left;
+	background: #fff;
+	border: 1px solid #999;
+	padding:20px;
+	display: block;
+	overflow: hidden;
+}
+img{
+	width: 80px;
+	height: 80px;
+}
+.teamlogo{
+	float: left;
+}
+.teamname{
+	font-size: 15px;
+	font-weight: bold;
+	float: right;
+	padding-right: 20px;
+}
+.center{
+	margin-left: 280px;
+	margin-right: 200px;
+	background: #fff;
+	border: 1px solid #999;
+	padding:30px;
+	overflow: hidden;
+}
+.center h2,p{
+	margin-bottom: 20px;
+}
+.center p{
+	line-height: 30px;
+	word-break: keep-all;
+}
+.center a{
+	text-decoration: none;
+}
+.center a:hover{
+	border-bottom: 1px solid blue;
+}
+.right{
+	padding:20px;
+	width: 80px;
+	height: auto;
+	float: right;
+	background: #fff;
+	border: 1px solid #999;
+	overflow: hidden;
+}
+.perlogo{
+	margin-top:20px;
+	margin-right: -20px;
+	
+	border: 1px solid #999;
+}

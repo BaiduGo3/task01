@@ -1,0 +1,185 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: rgb(222,222,222);
+	font-family: Microsoft Yahei;
+}
+
+header{
+	width: 100%;
+	background-color: rgb(51,51,51);
+	height: 60px;
+}
+
+.navbar-menu {
+	float: right;
+	margin-top: -40px;
+	margin-right: 20px;
+}
+
+.navbar-menu ul a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-menu ul li{
+	display: inline-block;
+	margin-right: 16px;
+}
+
+.navbar-menu a:hover,a:visited{
+	color: darkgray;
+}
+
+.navbar-img{
+	margin-left: 20px;
+}
+.main-content-container{	
+}
+
+article, .siderbar{
+	padding: 30px 20px 20px 20px;
+	background-color: snow;
+	box-shadow: 10px 10px 10px grey;
+	margin: 40px 40px;
+}
+
+article p{
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+article h3{
+	color: gray;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+article .publish-info {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+article p a{
+	text-decoration: none;
+	color: blue !important;
+}
+
+article .illustration{
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+article ul {
+    list-style: none;
+    margin-left: 2em;
+}
+
+article figure{
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid darkgray;
+	width: 600px;
+	text-align: center;
+}
+
+article figure img{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+article ol{
+	margin-left: 40px;
+}
+
+article table{
+	border-collapse: collapse;
+    width: 100%;
+    display: table;
+    border: 1px solid #ddd;
+}
+
+article table th, td {
+    padding: 3px 5px;
+    font-size: 14px;
+}
+
+article table th{
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+article table tr:last-child{
+	background-color: lightgray;
+}
+
+article table td a:last-child{
+	text-decoration: none;
+	color: #660000;
+}
+
+blockquote {
+    border-left: 3px solid #ddd;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form{
+	font-size: 14px;
+}
+.form-group{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.form-group .control-label {
+	display: inline-block;
+    width: 30%;
+    text-align: right;
+    padding-right: 10px;
+    vertical-align:top;
+}
+
+.form-group .form-tip {
+    color: darkgray;
+    margin-left: 31%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+.form-group textarea {
+    width: 65%;
+}
+
+.btn{
+	display: inline;
+	width:100%;
+	background: rgb(51,85,208);
+	padding:10px 0;
+	color:white;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 15px;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: -20px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: white;
+    height: 60px;
+}

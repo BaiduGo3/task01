@@ -1,0 +1,156 @@
+*{
+	font-family: "微软雅黑";
+	/*padding: 0px;*/
+	margin: 0px;
+}
+body{
+	background: lightgrey;
+	padding:0;
+}
+h1,h2,h3{
+	margin: 20px 0;
+}
+p{
+	text-indent: 2em;
+	line-height: 40px;
+}
+header{
+	height:60px;
+	background:rgb(51,51,51);
+	width:100%;
+	top:0;
+	left:0;
+	/*right:0;*/
+	/*position: fixed;*/
+	/*padding:0 60px;*/
+}
+header img{
+	display: inline;
+	float: left;
+	margin-left: 60px;
+	width: 10%;
+	height: 60px;
+}
+header ul{
+	float: right;
+	display: inline;
+	
+	margin: 20px 60px;
+}
+header ul li{
+	display: inline;
+	color:white !important;
+	list-style: none;
+}	
+header a{
+	color:white !important;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+header a:hover{
+	border-bottom: 1px solid white;
+}
+section{
+	display: block;
+	/*margin-top: 60px;*/
+	margin: 80px 80px 0px 80px;
+	padding:30px 50px;
+	background: #ffffff;
+	box-shadow: 5px 5px 5px grey;
+	overflow: auto;
+}
+section h3{
+	color:grey;
+}
+.til{
+	color:grey;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 30px;
+}
+figure{
+	border:1px solid lightgrey;
+	width: 220px;
+	text-align: center;
+	padding:10px 10px;
+}
+figure figcaption{
+	margin-bottom: 10px;
+}
+table{
+	width:100%;
+	border:1px solid lightgrey;
+	border-collapse: collapse;
+}
+table td{
+	padding:5px;
+}
+table thead{
+	background: black;
+	color:white;
+}
+table .botm{
+	background:lightgrey;
+	font-weight: bold;
+}
+.es{
+	color:black;
+}
+.es span{
+	width: 5px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 10px -10px 0;
+	background: lightgrey;
+}
+
+label{
+	font-size: 15px;
+	display: inline-block;
+	text-align: right;
+	width: 30%;
+}
+.singleline{
+	font-size: 12px;
+	color: grey;
+	margin-left: 35%;
+}
+.labe{
+	height: 50px;
+}
+.lab{
+	vertical-align:bottom;
+}
+textarea{
+	width:60%;
+}
+.btn{
+	display: inline;
+	width:100%;
+	background: rgb(51,85,208);
+	padding:10px 0;
+	color:white;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 10px;
+	margin:10px 0;
+}
+.btn:hover{
+	background:#204d74;
+	cursor: pointer;
+}
+footer{
+	/*position: absolute;*/
+	/*display: inline-block;*/
+	width: 100%;
+	background: black;
+	height: 60px;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	bottom: 0;
+	line-height: 60px;
+	left:0;
+	margin: 30px 0 0 0;
+}
