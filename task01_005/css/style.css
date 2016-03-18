@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	font-family: "Microsoft Yahei";
+}
+body{
+	background: lightgrey;
+	min-width: 340px;
+}
+header{
+	background: rgb(51,51,51);
+}
+header nav{
+	position: relative;
+	margin: 0 auto;
+	width: 95%;
+	height: 60px;
+	padding: 0 20px;
+}
+header nav img{
+	position: absolute;
+	left: 0;
+}
+header nav ul{
+	position: absolute;
+	display: inline;
+	right: 0;
+	margin: 20px 20px;
+}
+header nav ul li a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	border-bottom: 1px solid white;
+}
+header nav ul li{
+	display: inline;
+	font-size: 14px;
+	margin: 0 10px;
+}
+@media screen and (max-width: 640px){
+	header nav{
+		height: 90px;
+		text-align: center;
+	}
+	header nav img{
+		position: relative;
+		bottom: auto;
+	}
+	header nav ul{
+		display: inline-block;
+		position: relative;
+		margin: 0;
+	}
+	header nav ul li{
+		font-size: 10px;
+	}
+}
+
+.main{
+	margin: 40px 400px 20px 20px;
+}
+section{
+	background: white;
+	margin: 40px auto;
+	box-shadow: 5px 5px 5px grey;
+	padding: 40px 25px;
+	overflow: auto;
+}
+section img{
+	margin: 20px 0;
+	max-width: 300px;
+	width: 100%;
+	height: auto;
+}
+.main h1,h2,h3,h4{
+	margin: 20px 0;
+}
+.main p{
+	text-indent: 2em;
+	line-height: 30px;
+	font-size: 15px;
+}
+section h3,h4{
+	color:grey;
+}
+section figure{
+	border:1px solid lightgrey;
+	width: 220px;
+	text-align: center;
+	padding:10px 10px;
+	margin: 20px 0;
+}
+section figure img{
+	margin:10px 0;
+}
+section table{
+	width:100%;
+	border:1px solid lightgrey;
+	border-collapse: collapse;
+}
+section table th,td{
+	padding:5px;
+}
+section table thead{
+	background: black;
+	color:white;
+	text-align: left;
+}
+section table tbody tr:last-child{
+	background:lightgrey;
+	font-weight: bold;
+}
+
+.side{
+	width: 360px;
+	position: absolute;
+	right:20px;
+	top:60px;
+}
+.side h3{
+	color:black;
+}
+.side h3 span{
+	width: 5px;
+	height: 40px;
+	display: inline-block;
+	margin: 0 10px -10px 0;
+	background: lightgrey;
+}
+.side label{
+	font-size: 12px;
+	display: inline-block;
+	text-align: right;
+	width: 35%;
+	vertical-align: top;
+}
+.side p{
+	margin: 10px 0;
+}
+.side .singleline{
+	font-size: 12px;
+	color: grey;
+	margin-left: 37%;
+}
+.side textarea{
+	width:60%;
+}
+.side .btn{
+	display: inline;
+	width:100%;
+	background: rgb(51,85,208);
+	padding:10px 0;
+	color:white;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 10px;
+	margin:10px 0;
+}
+.side .btn:hover{
+	background:#204d74;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+	.main,.side{
+		padding: 10px;
+		margin: auto;
+	}
+	.side{
+		position: static;
+	}
+}
+
+
+footer{
+	/*position: absolute;*/
+	/*display: inline-block;*/
+	width: 100%;
+	background: black;
+	height: 60px;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	bottom: 0;
+	line-height: 60px;
+	left:0;
+	margin: 30px 0 0 0;
+}
