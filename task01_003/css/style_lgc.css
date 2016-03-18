@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: "Centaur";
+}
+
+html,body{
+	height: 100%;
+	display: inline;
+}
+.main-div{
+	padding: 20px;
+	margin: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+	height: 60%;
+
+}
+
+.left-div{
+	float: left;
+	width: 200px;
+	background-color: white;
+	border: 1px solid #999;
+}
+
+.teamlogo{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+}
+
+.teamname{
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-right: 40px;
+	box-shadow: 5px 5px 5px #999;
+}
+
+.right-div{
+	float: right;
+	background-color: white;
+	width: 120px;
+	border: 1px solid #999;
+	text-align: center;
+}
+
+.perlogo{
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+	box-shadow: 5px 5px 5px #999;
+}
+
+#perlogo_spec{
+	margin-bottom: 20px;
+}
+
+.center-div{
+	background-color: white;
+	border: 1px solid #999;
+	margin-left: 220px;
+	margin-right: 140px;
+	height: 90%;
+}
+
+.introduce{
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin: 20px;
+	box-shadow: 5px 5px 5px #999;
+}
+
+.lalala{
+	margin: 10px;
+	width: 180px;
+	box-shadow: 5px 5px 5px #999;
+}
+
+#contact{
+	clear: both;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#contact a{
+	text-decoration: none;
+}
+
+#contact a:hover{
+	color: darkgray;
+
+
+
+
+
+
+
