@@ -10,8 +10,12 @@
 	top:50%;
 	left:50%;
 	background: #ccc;
-	margin-top: -100px;
-	margin-left: -200px;
+	/*margin-top: -100px;
+	margin-left: -200px;*/
+	/*transform:translate(-200px,-100px);*/
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
 	overflow: hidden;
 }
 .left-top,.right-bottom{
