@@ -156,6 +156,9 @@ h2{
 	line-height: 16px;
 	margin:40px 20px 40px 0;
 }
+.what .pp{
+	line-height: 180%;
+}
 .percent{
 	width:50%;
 	margin-top:40px;
@@ -261,18 +264,20 @@ h2{
 	padding:10px 0 0 40px;
 }
 .right .qd{
-	height:44px;
+	height:39px;
 	width:300px;
 	border-left:3px solid #72b16a;
 	position: relative;
 	top:-115px;
 	left:40px;
+	vertical-align: middle;
+	padding-top:5px;
 }
 .right .qd .qd1{
 	color:#ffffff;
 	font-size: 26px;
 	font-family: "微软雅黑";
-	margin-left: 10px;
+	margin:0 10px 0 10px;
 }
 .right .qd .qd2{
 	font-size: 12px;
@@ -310,7 +315,7 @@ h2{
 	font-size: 12px;
 	color:#5a5b5b;
 	font-family: "宋体";
-	text-align: right;
+	float: right;
 }
 .bottom .red{
 	width:260px;
@@ -334,7 +339,8 @@ h2{
 	position: relative;
 	top:30px;
 	left:0;
-	padding:5px;
+	padding-left:10px;
+	padding-top:5px;
 }
 .bottom .red .two .three{
 	font-size: 21px;
@@ -348,6 +354,7 @@ h2{
 	color:#ffffff;
 	font-family: "黑体";
 	line-height: 100%;
+	margin-left: 3px;
 }
 .bottom .hello{
 	width:160px;
@@ -382,7 +389,7 @@ h2{
 	color:#5a5b5b;
 	font-family: "黑体";
 	font-style: italic;
-	line-height: 150%;
+	line-height: 16px;
 }
 footer{
 	position: relative;
