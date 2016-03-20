@@ -1,0 +1,41 @@
+*{
+	padding:0;
+	margin:0;
+}
+.parent{
+	margin:0 auto;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+	width:95%;
+	height:400px;
+	padding:20px;
+	border:1px solid #a9a9a9;
+}
+.child{
+	width:150px;
+	border:1px solid #f00;
+}
+.child1{
+	height:120px;
+}
+.child2{
+	height:100px;
+}
+.child3{
+	height:40px;
+}
+.child4{
+	height:200px;
+	border:1px solid blue;
+}
+@media screen and (max-width:640px){
+	.parent{
+		flex-wrap:wrap;
+		align-items:flex-start;
+		flex-content:flex-start;
+	}
+	.child4{
+		order:-1;
+	}
+}
