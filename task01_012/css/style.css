@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+	box-sizing: border-box;
+}
+.container{
+	padding: 30px;
+}
+
+.nthchild table{
+	border: 1px solid white;
+}
+table.nthchild thead tr{
+	background-color: black;
+	color: white;
+}
+table.nthchild tbody tr:nth-child(-n+3){
+	color: red;
+}
+table.nthchild tbody tr:nth-child(even){
+	background-color: lightgrey;
+}
+
+.transition{
+	width: 100px;
+	transition: width .5s;
+	-moz-transition: width .5s;	/* Firefox 4 */
+	-webkit-transition: width .5s;	/* Safari 和 Chrome */
+	-o-transition: width .5s;	/* Opera */
+}
+.transition:focus{
+	width: 200px;
+}
+section{
+	margin: 20px;
+}
+
+.target{
+	position: relative;
+	width: 300px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    list-style: none;
+}
+.target .banner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 200px;
+	float: left;
+	display: inline-block;
+	z-index: 1;
+}
+/*animation achieve turn*/
+@keyframes myturn{
+0% {left: 100%;}
+100 {left: 0;}
+}
+.target .banner:target{
+	z-index: 2;
+	animation-name:myturn;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+}
+.target .banner1{
+	left: 0;
+	background-color: purple;
+}
+.target .banner2{
+	background-color: orange;
+}
+.target .banner3{
+	background-color: lightgreen;
+}
+.controller{
+	position: relative;
+	right: -200px;
+	top: -35px;
+	z-index: 2;
+}
+.controller a{
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	background-color: black;
+	opacity: 0.5;
+	display: inline-block;
+}
+
+.target:before, .target:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.animation{
+	margin: 15px;
+	width: 100px;
+	height: 60px;
+	font-size: 16px;
+	position: relative;
+	border-radius: 10px;
+	background-color: #92B901;
+	color: white;
+	padding: 10px;
+
+	/*animation-name,animation-duration,animation-timing-function,
+	animation-delay,animation-iteration-count,animation-direction*/
+	animation: mymove 2s linear .5s infinite normal;
+	-webkit-animation: mymove 2s linear .5s infinite normal;
+	-moz-animation: mymove 2s linear .5s infinite normal;
+}
+@keyframes mymove{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+55%	{transform: rotate(0deg);left:500px;}
+70% {transform: rotate(0deg);left:500px;background: #1ec7e6;}
+100% {transform: rotate(-360deg);left: 0px;}
+}
+@-webkit-keyframes mymove{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+55%	{transform: rotate(0deg);left:500px;}
+70% {transform: rotate(0deg);left:500px;background: #1ec7e6;}
+100% {transform: rotate(-360deg);left: 0px;}
+}
+@-moz-keyframes mymove{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+55%	{transform: rotate(0deg);left:500px;}
+70% {transform: rotate(0deg);left:500px;background: #1ec7e6;}
+100% {transform: rotate(-360deg);left: 0px;}
+}
+
+
