@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	align-items:center;/*伸缩项目的外边距盒在该行的侧轴上居中放置*/
+	justify-content:space-between;/*伸缩项目会平均地分布在行里。第一个伸缩项目一行中的最开始位置，最后一个伸缩项目在一行中最终点位置*/
+}
+div{
+	width: 150px;
+	margin: 20px;
+	background-color: #f00;
+}
+.box1{
+	height: 120px;
+}
+.box2{
+	height: 100px;
+}
+.box3{
+	height: 40px;
+}
+.box4{
+	height: 200px;
+	background-color: #00f;
+}
+
+@media only screen and (max-width: 640px){
+.box4{
+	order:-1;/*控制伸缩项目在他们的伸缩容器出现的顺序*/
+}
+body{
+	align-items: flex-start;/*伸缩项目向一行的起始位置靠齐*/
+	flex-wrap: wrap;/*伸缩容器多行显示*/
+}
+}
