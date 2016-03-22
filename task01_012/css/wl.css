@@ -55,7 +55,6 @@ input:focus{
 	position: absolute;
 	width:0;
 	height:200px;
-	background-color: blue;
 	transition:width 1s;
 	-webkit-transition:width 1s;
 	-moz-transition:width 1s;
@@ -65,7 +64,6 @@ input:focus{
 	position: absolute;
 	width: 0;
 	height:200px;
-	background-color: blue;
 	transition:width 1s;
 	-webkit-transition:width 1s;
 	-moz-transition:width 1s;
@@ -73,12 +71,14 @@ input:focus{
 }
 
 .banner #second:target{
-	z-index: 2;
+	z-index: 1;
 	width:200px;
+	background-color: blue;
 }
 .banner #third:target{
-	z-index: 3;
+	z-index: 1;
 	width:400px;
+	background-color: blue;
 }
 .banner #third:target a{
 	background-color: #9900ff;
