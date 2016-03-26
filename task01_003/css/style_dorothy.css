@@ -1,0 +1,83 @@
+*{
+	line-height: 30px;
+}
+.main{
+	padding: 20px;
+	background: #eee;
+	border: 1px solid #999;
+	min-height: 600px;
+	margin: 0 auto;
+}
+.left{
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: 1px solid #999;
+	background: #FFF;
+	width: 200px;
+}
+.left img{
+	height: 80px;
+	width: 80px;
+	float: left;
+}
+.left p{
+	/*display: inline-block;*/
+	text-align: center;
+	font-weight: bold;
+}
+.right{
+	float: right;
+	border: 1px solid #999;
+	width: 120px;
+
+}
+.right .one {
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	border: 1px solid #999;
+}
+.right .two{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	display: block;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #999;
+}
+.right .three{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	display: block;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #999;
+}
+.right .four{
+	margin: 0 auto;
+	margin-bottom: 20px;
+	display: block;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #999;
+}
+.middle{
+	padding: 0 20px;
+	border: 1px solid #999;
+	display: block;
+	margin-left: 252px;
+	margin-right: 152px;
+
+}
+.middle li{
+	list-style: none;
+	font-weight: bold;
+	font-size: 16px;
+}
+.middle p{
+	font-weight: normal;
+	text-indent: 2em;
+}
