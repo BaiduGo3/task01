@@ -1,0 +1,35 @@
+.main{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	margin-left: -200px;
+	margin-top: -100px;
+
+}
+.corner{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.corner .left{
+	position: absolute;
+	left: -50px;
+	top: -50px;
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius: 50%;
+}
+.corner .right{
+	position: absolute;
+	right: -50px;
+	bottom: -50px;
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius: 50%;
+}
