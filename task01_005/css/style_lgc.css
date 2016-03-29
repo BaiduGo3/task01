@@ -1,0 +1,205 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: rgb(222,222,222);
+	font-family: Microsoft Yahei;
+}
+
+header{
+	width: 100%;
+	background-color: rgb(51,51,51);
+	height: 60px;
+}
+
+.navbar-img{
+	margin-left: 20px;
+}
+
+.navbar-menu{
+	position: absolute;
+	right: 0px;
+	top: 20px;
+}
+
+.navbar-menu ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.navbar-menu a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.navbar-menu a:hover{
+	color: darkgray;
+}
+
+.main-content-container{
+
+}
+
+article, .siderbar{
+	background-color: white;
+	box-shadow: 5px 5px 5px grey;
+	border:1px solid lightgrey;
+	margin: 20px;
+	padding: 40px 20px;
+	line-height: 1.5em;
+}
+
+article{
+	margin-right: 440px;
+}
+
+article h2,h3,.publish-info{
+	margin-bottom: 20px;
+}
+
+.publish-info{
+	font-size: 14px;
+	color: darkgray;
+}
+
+article p{
+	text-indent: 2em;
+}
+
+article img{
+	margin: 20px 0px;
+}
+
+@media screen and (max-width: 1049px){
+	article img{
+		width: 400px;
+	}
+}
+article ul{
+	list-style: none;
+	margin-left: 2em;
+}
+
+article figure{
+	/*display: inline-block;*//*这个也可以实现类似于浮动的效果*/
+	/*overflow: auto;可以实现清除浮动的效果*/
+	float: left;
+	border: 1px solid #CCC;
+	width: 130px;
+	height: 140px;
+	margin: 20px 10px;
+}
+
+article:after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+article figure figcaption{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+article figure img{
+	width: 110px;
+	height: 82px;
+	margin: 10px;
+}
+article ol{
+	margin-left: 40px;
+	margin-bottom: 20px; 
+}
+
+article table{
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #CCC;
+	text-align: left;
+}
+
+article table th, td{
+	padding-left: 5px;
+	font-size: 14px;
+}
+
+article table th{
+	background-color: black;
+	color: white;
+}
+
+article table tr:last-child{
+	background-color: lightgray;
+}
+
+article table td a:last-child{
+	color: #660000;
+}
+
+.siderbar blockquote{
+	border-left: 3px solid #ddd;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.siderbar form{
+	font-size: 14px;
+}
+
+.siderbar .form-group{
+	margin-top: 10px;
+}
+
+.siderbar .control-label{
+	display: inline-block;
+	width: 110px;
+	text-align: right;
+	vertical-align:top;
+	margin-right: 5px;
+}
+
+.siderbar .form-tip{
+	margin-left: 110px;
+	margin-top: 10px; 
+	color: grey;
+}
+
+.form-group textarea {
+    width: 65%;
+
+}
+
+.siderbar .btn{
+	width: 100%;
+	background-color: rgb(51,85,208);
+	padding:10px 0;
+	color:white;
+	font-weight: bold;
+	font-size: 12px;
+	border-radius: 15px;
+	margin-top: 5px;
+}
+
+.siderbar{
+	position: absolute;
+	right: 0px;
+	top: 60px;
+	width: 360px;
+}
+
+footer{
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 20px 0px;
+	font-size: 14px;
+}
