@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #dedede;
+}
+.header{
+	background: rgb(249,145,51);
+	vertical-align: middle;
+	height: 70px;
+	width: 100%;
+	display: table; 
+}
+.header p{
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 70px;
+	font-size: 25px;
+	font-weight: bold;
+	padding-left: 20px; 
+	color: #fff;
+}
+nav ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	float: left;
+	line-height: 70px;
+	margin-right: 20px;
+	font-weight: bold;
+	list-style: none;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+nav ul li a:hover{
+	color: grey;
+	cursor: pointer;
+}
+aside{
+	float: right;
+	margin-top: 40px;
+	margin-right: 20px;
+	width: 390px;
+	box-shadow: 2px 2px 2px #848484;
+	background: #fff;
+	height: 300px;
+	padding: 20px;
+}
+.aside{
+	border-left: 3px solid #dedede;
+	padding-left: 10px; 
+}
+.message{
+	width: 30%;
+	display: inline-block;
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.input{
+	display: inline-block;
+	text-align: right;
+	margin-top: 20px;
+	width: 40%;
+
+}
+form>div{
+	margin: 10px 0;
+}
